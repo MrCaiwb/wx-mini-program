@@ -1,0 +1,8 @@
+<view>
+  <van-button type="primary" size="large" bindtap="choose">点击上传</van-button>
+  上传的图片：
+  <block wx:for="{{imageList}}" wx:key="{{index}}">
+    <image src="{{item}}"></image>
+  </block>
+</view>
+

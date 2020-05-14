@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-button": "vant-weapp/button",
+    "x-playlist": "../../components/playlist/playlist",
+    "list": "../../components/list/list"
+  },
+  "enablePullDownRefresh": true
+}

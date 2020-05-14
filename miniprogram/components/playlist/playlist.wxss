@@ -1,0 +1,21 @@
+.playlist-item {
+  width: 220rpx;
+  padding-bottom: 20rpx;
+  position: relative;
+}
+.playlist-item image {
+  width: 100%;
+}
+.playlist-item text {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.count {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  color: #fff;
+}

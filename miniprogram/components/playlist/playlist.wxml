@@ -1,0 +1,5 @@
+<view class="playlist-item" bindtap="toMusicList" data-playlistId="{{playlist.id}}">
+  <image src="{{playlist.picUrl}}" mode="widthFix"></image>
+  <view class="count">{{count}}</view>
+  <text>{{playlist.name}}</text>
+</view>
